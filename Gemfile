@@ -7,7 +7,7 @@ ruby '2.7.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3.6'
 # Use Slim for template engine
 gem 'slim-rails'
 # Use SCSS for stylesheets
@@ -71,3 +71,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem 'react-rails'
